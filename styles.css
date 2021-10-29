@@ -1,0 +1,131 @@
+body {
+  background: #ACCBE1;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+main {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Cormorant Garamond', serif;
+	width: 1800px;
+	height: 1200px;
+	background-color:#7C98B3;
+	padding:10px;
+}
+
+
+.info-category {
+	color:black;
+	padding:20px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-style: outset;
+	border-color: #637081;
+	margin: 10px;
+	
+	
+	
+}
+#category-title {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	color:black;
+	font-size: 40px;
+	margin:20px;
+	
+}
+
+li {
+	padding:10px;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.hobbie-pic {
+	/* width: 450px; */
+	/* height:250px; */
+	padding:10px;
+	margin:10px;
+	background-color: black;
+}
+
+.about-me-pic {
+	width: 250px;
+	height: 200px;
+	margin: 20px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.fav-color {
+	background-color: rgb(107, 7, 7);
+	width:100px;
+	height:100px;
+}
+
+.fav-food {
+	background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SACK7e5o9Wps0FBH9fRSIAHaE8%26pid%3DApi&f=1');
+	background-repeat: no-repeat;
+}
+
+
+.fav-music {
+	/* background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FtE3XioG.jpg&f=1&nofb=1');
+	background-size:350px;
+	background-repeat: no-repeat; */
+	background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FtE3XioG.jpg&f=1&nofb=1');
+	background-size: 300px;
+	background-repeat: no-repeat;
+	
+	/* background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat */
+}
+
+#space-favs {
+	height: 300px;
+	width: 75%;
+	border-style: solid;
+	border-color: black;
+	margin:20px;
+}
