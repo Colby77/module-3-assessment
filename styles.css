@@ -46,7 +46,7 @@ main {
 	justify-content: space-between;
 	font-family: 'Cormorant Garamond', serif;
 	width: 1800px;
-	height: 1200px;
+	height: 1400px;
 	background-color:#7C98B3;
 	padding:10px;
 }
@@ -89,10 +89,17 @@ li {
 	background-color: black;
 }
 
+.about-me-pic:hover {
+	background-size: 500px;
+}
 .about-me-pic {
-	width: 250px;
-	height: 200px;
+	height:270px;
+	width:400px;
+	background-image: url('IMG-1096.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
 	margin: 20px;
+	transition: 1s;
 }
 
 p {
@@ -103,11 +110,14 @@ p {
 	background-color: rgb(107, 7, 7);
 	width:100px;
 	height:100px;
+	transition: 1s;
 }
 
 .fav-food {
 	background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SACK7e5o9Wps0FBH9fRSIAHaE8%26pid%3DApi&f=1');
 	background-repeat: no-repeat;
+	background-position:center;
+	transition: 1s
 }
 
 
@@ -115,11 +125,29 @@ p {
 	/* background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FtE3XioG.jpg&f=1&nofb=1');
 	background-size:350px;
 	background-repeat: no-repeat; */
-	background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FtE3XioG.jpg&f=1&nofb=1');
+	background-image: 
+		url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FtE3XioG.jpg&f=1&nofb=1')
+		,url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FxPtKL96.jpg&f=1&nofb=1'),
+		url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2780118.jpg&f=1&nofb=1'),
+		url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FHdZlggY.jpg&f=1&nofb=1');
+	background-position-x:0%, 30%, 60%, 85%;
+	background-position-y: 50%, 50%, 50%, 50%;
 	background-size: 300px;
 	background-repeat: no-repeat;
+	margin:10px;
+	transition: 1s;
 	
-	/* background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat */
+}
+
+.fav-btn {
+	background-color: rgb(7, 133, 7);
+	font-size: 16px;
+	font-weight:600;
+	border-radius: 5px;
+}
+
+.fav-btn:hover {
+	background-color: olive;
 }
 
 #space-favs {
